@@ -1,0 +1,67 @@
+.category-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.category-cards-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.category-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.category-card h2 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(22, 22, 22);
+}
+
+.category-card .price {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 6, 117);
+}
+
+.btn-category-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn-category-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: silver;
+    cursor: pointer;
+}
+
+.btn-category-item button:hover {
+    background-color: rgb(0, 6, 117);
+    color: #fff;
+}

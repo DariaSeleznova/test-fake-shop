@@ -1,0 +1,57 @@
+.checkout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.checkout-left {
+    width: 25%;
+}
+
+.checkout-right {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: 500;
+    color: rgb(22, 22, 22);
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 6, 117);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 6, 117);
+    opacity: 0.9;
+}
+
+.checkout-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

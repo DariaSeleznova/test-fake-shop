@@ -1,0 +1,68 @@
+:root {
+    --color-bg: #d3d3d3;
+    --color-text: #1f1f1f;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.item__content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.item img {
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+.item h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.item p {
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+.btn-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.item button,
+.btn-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: silver;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item button:hover,
+.btn-item button:hover {
+    background-color: rgb(0, 6, 117);
+    color: white;
+}
+
+.card-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}

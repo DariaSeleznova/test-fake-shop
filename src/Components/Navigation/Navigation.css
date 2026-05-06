@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 20px;
+    padding: 20px;
+    width: 25%;
+}
+
+.category-link {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-link a {
+    text-decoration: none;
+    color: #131313;
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.category-link a:hover {
+    transform: scale(1.1);
+}
